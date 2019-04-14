@@ -4,7 +4,7 @@
 
 *Last updated: 2019-04-14*
 
-*NOTE: This is a mirror of the [original document](https://github.com/ejconlon/parabuf/blob/master/DESIGN.md).*
+*NOTE for Medium: The [original document](https://github.com/ejconlon/parabuf/blob/master/DESIGN.md) is on Github.*
 
 ## Motivation
 
