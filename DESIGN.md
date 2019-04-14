@@ -133,7 +133,7 @@ to C++ template expansion.) Given this IDL:
         Parent<int32> child = 1;
     }
 
-   type BoolParent = Parent<bool>
+    type BoolParent = Parent<bool>
 
 We might expect these generated codecs in Python:
 
