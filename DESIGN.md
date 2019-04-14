@@ -125,13 +125,13 @@ and finally with this generate protobuf IDL or codegen directly using the single
 every unique specialization of a type constructor with additional generated types and code.  (This strategy is similar
 to C++ template expansion.) Given this IDL:
 
-   message Parent<A> {
+    message Parent<A> {
         A child = 1;
-   }
+    }
 
-   message Grandparent {
-       Parent<int32> child = 1;
-   }
+    message Grandparent {
+        Parent<int32> child = 1;
+    }
 
    type BoolParent = Parent<bool>
 
