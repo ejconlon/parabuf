@@ -8,9 +8,9 @@ _NOTE for Medium: The [original document](https://github.com/ejconlon/parabuf/bl
 
 ## Motivation
 
-For years, I’ve wanted algebraic data types over the wire, but the best I could do was roll my own type system or use
+For years I’ve wanted algebraic data types over the wire, but the best I could do was roll my own type system or use
 custom codecs to map to host language features. Unfortunately, these strategies hit a wall in large, heterogeneous
-projects, so people often reach for protocol buffers to define well-understood, high-performance interfaces and
+projects, so it's common to reach for protocol buffers to define well-understood, high-performance interfaces and
 encodings. However, protobuf brings with it a rigid and inexpressive type system that all but precludes frictionless
 encoding of algebraic data types.
 
@@ -23,7 +23,7 @@ Before proto3 I had to define my own KV pair types to implement maps too many ti
 maintainers have lifted polymorphic maps into the language now, but I don’t find it entirely satisfying. Why do they
 get to define polymorphic types and we don’t? Let’s add them them to the IDL and see what shakes out.
 
-Here are the advantages of parametric polymorphism at the IDL level:
+Here are advantages of parametric polymorphism at the IDL level:
 
 -   Boilerplate reduction in type definitions that share structures
 -   Late binding of type parameters between IDL modules
