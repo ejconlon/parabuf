@@ -1,10 +1,10 @@
-# Parabuf
+# Parabuf: Protobuf with Fancier Types
 
 _Author: [Eric Conlon](https://twitter.com/econlon)_
 
 _Last updated: 2019-04-14_
 
-_NOTE for Medium: The [original document](https://github.com/ejconlon/parabuf/blob/master/DESIGN.md) is on Github._
+_Note for Medium: The [original document](https://github.com/ejconlon/parabuf/blob/master/DESIGN.md) is on Github._
 
 ## Motivation
 
